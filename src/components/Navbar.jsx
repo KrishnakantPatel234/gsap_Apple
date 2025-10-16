@@ -3,8 +3,8 @@ import { navLinks } from "../constants";
 const Navbar = () => {
     return (
         <header className="bg-black">
-            <nav className="flex items-center justify-between max-w-7xl mx-auto px-6 py-4">
-                <img src="/logo.svg" alt="Apple logo" />
+            <nav className="flex items-center justify-between max-w-7xl mx-auto px-6 py-4 ">
+                <img className="cursor-pointer" src="/logo.svg" alt="Apple logo" />
                 <ul className="hidden md:flex items-center justify-between text-white gap-8" >
                     {navLinks.map((link) => (
                         <li key={link.label} >
